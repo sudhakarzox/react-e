@@ -22,10 +22,6 @@
 body{
   background: #000000;
   font-family: Tektur ; font-style: normal; font-weight: 500;
-<<<<<<< HEAD
-}
-
-=======
   /* Make body take full height */
   height: 100vh;
   margin: 0;
@@ -56,4 +52,3 @@ body{
   50%  { opacity: 0; }
   100% { opacity: 1; }
 }
->>>>>>> master
