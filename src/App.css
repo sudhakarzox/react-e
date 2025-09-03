@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 3vmin);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body{
+  background: #000000;
+  font-family: Tektur ; font-style: normal; font-weight: 500;
+  /* Make body take full height */
+  height: 100vh;
+  margin: 0;
+
+  /* Center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Optional: smooth text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  border-style: solid;
+  border-color: #daf6ff;
+  border-radius: 10px;
+  border-width: 1px;
+  text-shadow: 0 0 20px rgb(0, 191, 255);
+ 
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
