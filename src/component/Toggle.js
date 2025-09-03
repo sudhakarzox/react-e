@@ -29,7 +29,7 @@ function Toggle(){
             clearTimeout(interval1);
         }
       };
-    },[ActiveEyeStrainTimer, play]);
+    },[ActiveEyeStrainTimer]);
 
 
     const cs={
