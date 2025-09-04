@@ -32,13 +32,13 @@ function Timer(){
     
         <div className='w3-padding '>
 
-          <div className="w3-container" style={cs}>{'>>>>>>>>>>> .'} <span className="blinking"> .</span> {'<<<<<<<<<<<'}</div>
+          <div className="w3-container" style={cs}>{'>>>>>>> .'} <span className="blinking"> .</span> {'<<<<<<<'}</div>
 
           <div className="w3-container" style={cs}>
             {value.toLocaleTimeString()}
           </div>
         
-          <div className="w3-container" style={cs}>-------------------------------------</div>
+          <div className="w3-container" style={cs}>------------------------------------</div>
 
         </div> 
 

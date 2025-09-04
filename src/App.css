@@ -38,8 +38,9 @@ body{
   border-style: solid;
   border-color: #daf6ff;
   border-radius: 10px;
-  border-width: 1px;
+  border-width: 3px;
   text-shadow: 0 0 20px rgb(0, 191, 255);
+  box-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
  
 }
 

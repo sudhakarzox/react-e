@@ -99,7 +99,7 @@ function Toggle(){
             </Popup>
                 
 
-            <div className="w3-container" style={cs}>---------------------------------------------</div>
+            <div className="w3-container" style={cs}>--------------------------------------------</div>
         </div>
 
       

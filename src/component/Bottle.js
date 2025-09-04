@@ -13,7 +13,12 @@ function Bottle(){
     useEffect(() => {
         
     },[]);
-
+    const cs={
+        padding: '5px 0',
+        'color': '#daf6ff',
+        'textShadow':' 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0)',
+        'fontSize':'smaller',
+    }
 
     const filter='drop-shadow(0px 0px 7px rgba(10, 175, 230, 1)';
 
@@ -46,9 +51,10 @@ function Bottle(){
                           'backgroundColor': '#daf6ff',
                           'color':'black',
                          }}>
-                {'HYDRATED :'}  {rate*20} {'%'}
+                 {rate*20} {'%'}
               </div>
           </div>
+          <div style={cs}>{'HYDRATED'}</div> 
         </div>
 
       
